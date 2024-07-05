@@ -44,3 +44,19 @@ Gồm 3 bảng: `employees`, `projects`, `project_department`
 - Viết câu truy vấn SQL để tìm các nhân viên chưa được phân công vào bất kỳ dự án nào nhưng chưa nghỉ hưu. Trả về employee_id, first_name, last_name, và phòng ban.
 - Viết câu truy vấn SQL để tìm tên của các nhân viên đã được phân công vào các dự án mà phòng ban chủ trì là 'Tài chính' và 'IT' nhưng nhân viên không thuộc phòng 'Dịch vụ khách hàng'. Trả về employee_id, first_name, và last_name.
 - Viết câu truy vấn SQL để tìm mức lương trung bình của các nhân viên cho mỗi dự án. Trả về project_id, project_name, và mức lương trung bình.
+### Phần 2
+- Viết câu truy vấn SQL để tìm mức lương trung bình của các nhân viên chưa nghỉ việc, được nhóm theo phòng ban và mức đánh giá hiệu suất.
+- Tìm các nhân viên có thâm niên lâu nhất (sự khác biệt giữa ngày gia nhập và ngày nghỉ việc hoặc ngày hiện tại nếu họ chưa nghỉ việc) trong mỗi phòng ban.
+- Viết câu truy vấn để lấy tên của các nhân viên đã làm việc trong các dự án đã hoàn thành, cùng với tên dự án và các phòng ban tương ứng của họ.
+- Tìm phòng ban có mức lương trung bình cao nhất cho các nhân viên chưa nghỉ việc.
+- Viết câu truy vấn để lấy tên của các nhân viên đã làm việc trong các dự án có thời gian (ngày kết thúc - ngày bắt đầu) dài hơn một số ngày nhất định (365 ngày).
+- Tìm phòng ban có số lượng nhân viên đã nghỉ việc nhiều nhất.
+- Tìm dự án có số lượng nhân viên được phân công cao nhất, và trả về chi tiết dự án (tên dự án, ngày bắt đầu, ngày kết thúc, tình trạng dự án) cùng với số lượng nhân viên.
+- Tìm nhân viên có mức lương cao nhất và chưa nghỉ việc, được nhóm theo phòng ban.
+- Tìm phòng ban có độ tuổi trung bình cao nhất của nhân viên chưa nghỉ việc.
+- Tìm các phòng ban có số lượng nhân viên đã nghỉ việc nhiều nhất, và đối với mỗi phòng ban đó, trả về tên phòng ban, số lượng nhân viên đã nghỉ việc, và thời gian làm việc trung bình (tính theo ngày) của những nhân viên đã nghỉ việc.
+- Viết câu truy vấn SQL để tìm các dự án có nhân viên được phân công từ ít nhất ba phòng ban khác nhau, và đối với mỗi dự án đó, trả về tên dự án, số lượng phòng ban khác nhau đại diện, và độ tuổi trung bình của các nhân viên được phân công cho dự án đó.
+- Viết câu truy vấn SQL để tìm các phòng ban có mức lương trung bình cao nhất cho các nhân viên chưa nghỉ việc và có mức đánh giá hiệu suất là 'Xuất sắc', và trả về tên phòng ban và mức lương trung bình làm tròn đến số nguyên gần nhất.
+- Viết câu truy vấn SQL để tìm các dự án có độ tuổi trung bình cao nhất của nhân viên được phân công, và đối với mỗi dự án đó, trả về tên dự án, độ tuổi trung bình của nhân viên làm tròn đến số nguyên gần nhất, và số lượng nhân viên được phân công cho dự án đó.
+- Tìm các nhân viên đã làm việc trên số lượng dự án nhiều nhất mà có thời gian (ngày kết thúc - ngày bắt đầu) dài hơn 365 ngày, và đối với mỗi nhân viên đó, trả về tên của họ, số lượng dự án với thời gian dài hơn 365 ngày, và thời gian trung bình (tính theo ngày) của những dự án đó.
+- Tìm các phòng ban có mức lương trung bình cao nhất cho các nhân viên đã làm việc trên các dự án đã hoàn thành, và trả về tên phòng ban và mức lương trung bình tương ứng.
