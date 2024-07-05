@@ -28,6 +28,7 @@ Gồm 3 bảng: `employees`, `projects`, `project_department`
 - `lead_department`: Phòng ban chủ trì hoặc chính chịu trách nhiệm cho dự án.
 
 ## Câu hỏi và trả lời
+### Phần 1
 - Tìm tên của các nhân viên hiện đang làm việc trong các dự án thuộc phòng IT.
 - Liệt kê tên dự án và ngày bắt đầu tương ứng cho tất cả các dự án đang tiến hành.
 - Lấy tên và tuổi của các nhân viên đã từ chức sau khi làm việc hơn 3 năm.
