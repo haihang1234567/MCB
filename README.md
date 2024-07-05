@@ -5,5 +5,14 @@ Kho dữ liệu này bao gồm các tập tin và dự án liên quan đến nh�
 Gồm 3 bảng: `employees`, `projects`, `project_department`
 ### Bảng 1: Employees
 - `employee_id`: Mã định danh duy nhất của nhân viên
-
+- `first_name`: Tên của nhân viên.
+- `last_name`: Họ của nhân viên.
+- `age`: Tuổi của nhân viên.
+- `gender`: Giới tính của nhân viên.
+- `dob`: Ngày sinh của nhân viên.
+- `date_joined`: Ngày gia nhập tổ chức của nhân viên.
+- `date_resigned`: Ngày nhân viên rời khỏi tổ chức.
+- `department`: Phòng ban mà nhân viên được phân công.
+- `salary`: Mức lương hàng năm của nhân viên.
+- `performance_level`: Mức đánh giá hiệu suất của nhân viên (ví dụ: Xuất sắc, Vượt, Đạt, Dưới, 1, 2, 3, 4, 5).
 
