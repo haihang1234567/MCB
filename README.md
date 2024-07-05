@@ -26,3 +26,20 @@ Gồm 3 bảng: `employees`, `projects`, `project_department`
 - `project_id`: Mã định danh duy nhất cho mỗi dự án.
 - `project_name`: Tên của dự án.
 - `lead_department`: Phòng ban chủ trì hoặc chính chịu trách nhiệm cho dự án.
+
+## Câu hỏi và trả lời
+- Tìm tên của các nhân viên hiện đang làm việc trong các dự án thuộc phòng IT.
+- Liệt kê tên dự án và ngày bắt đầu tương ứng cho tất cả các dự án đang tiến hành.
+- Lấy tên và tuổi của các nhân viên đã từ chức sau khi làm việc hơn 3 năm.
+- Tìm tổng số tiền lương đã trả cho (các) nhân viên đang làm việc trong phòng 'Tài chính'.
+- Liệt kê tên dự án và tên nhân viên cho các dự án bắt đầu vào năm 2024.
+- Tìm tên của các nhân viên đã làm việc trên hơn một dự án, cùng với số lượng dự án khác nhau mà họ đã tham gia.
+- Tìm các (nhân viên đang làm việc) hiện đang làm việc trong phòng 'Vận hành' và có mức đánh giá hiệu suất là 'Vượt'.
+- Lấy tên của các nhân viên đã tham gia trước năm 2023 và đang làm việc trên các dự án đang tiến hành.
+- Lấy tên của các nhân viên có cùng họ với một nhân viên khác, cùng với các phòng ban tương ứng của họ.
+- Viết câu truy vấn SQL để tìm (các) nhân viên đang làm việc có mức đánh giá hiệu suất cao hơn mức trung bình trong các phòng ban tương ứng của họ.
+- Viết câu truy vấn SQL để tìm 3 phòng ban có mức lương trung bình cao nhất (cho nhân viên đang làm việc). Trả về phòng ban và mức lương trung bình, làm tròn đến 2 chữ số thập phân.
+- Viết câu truy vấn SQL để tìm tên dự án và tổng số nhân viên đã tham gia trước ngày bắt đầu dự án. Trả về tên dự án và số lượng nhân viên như vậy.
+- Viết câu truy vấn SQL để tìm các nhân viên chưa được phân công vào bất kỳ dự án nào nhưng chưa nghỉ hưu. Trả về employee_id, first_name, last_name, và phòng ban.
+- Viết câu truy vấn SQL để tìm tên của các nhân viên đã được phân công vào các dự án mà phòng ban chủ trì là 'Tài chính' và 'IT' nhưng nhân viên không thuộc phòng 'Dịch vụ khách hàng'. Trả về employee_id, first_name, và last_name.
+- Viết câu truy vấn SQL để tìm mức lương trung bình của các nhân viên cho mỗi dự án. Trả về project_id, project_name, và mức lương trung bình.
